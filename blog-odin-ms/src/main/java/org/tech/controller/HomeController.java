@@ -7,4 +7,9 @@ public class HomeController {
 
   private final static Logger log = LoggerFactory.getLogger(HomeController.class);
 
+  public String home() {
+    log.info("Home controller called");
+    return "home";
+  }
+
 }
